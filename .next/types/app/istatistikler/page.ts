@@ -1,4 +1,4 @@
-// File: /Users/incesu/Desktop/grbt8ap/app/istatistikler/page.tsx
+// File: /Users/incesu/Desktop/grbt8ap.1/app/istatistikler/page.tsx
 import * as entry from '../../../../app/istatistikler/page.js'
 import type { ResolvingMetadata } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

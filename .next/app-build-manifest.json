@@ -1,65 +1,141 @@
 {
   "pages": {
-    "/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/page.js"
+    "/_not-found": [
+      "static/chunks/webpack-d9d87ced11948b28.js",
+      "static/chunks/fd9d1056-d65da8cada05a051.js",
+      "static/chunks/472-46003efea57efdd4.js",
+      "static/chunks/main-app-785df61ef3001bfb.js",
+      "static/chunks/app/_not-found-e34112140476e106.js"
     ],
     "/layout": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/layout.css",
-      "static/chunks/app/layout.js"
+      "static/chunks/webpack-d9d87ced11948b28.js",
+      "static/chunks/fd9d1056-d65da8cada05a051.js",
+      "static/chunks/472-46003efea57efdd4.js",
+      "static/chunks/main-app-785df61ef3001bfb.js",
+      "static/css/5ff5ce19596f971d.css",
+      "static/chunks/app/layout-57b8dbeeba3c6a48.js"
     ],
-    "/sistem/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/sistem/page.js"
-    ],
-    "/kullanici/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/kullanici/page.js"
-    ],
-    "/kampanyalar/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/kampanyalar/page.js"
-    ],
-    "/ucuslar/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/ucuslar/page.js"
-    ],
-    "/odemeler/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/odemeler/page.js"
-    ],
-    "/raporlar/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/raporlar/page.js"
+    "/ayarlar/admin-yonetimi/page": [
+      "static/chunks/webpack-d9d87ced11948b28.js",
+      "static/chunks/fd9d1056-d65da8cada05a051.js",
+      "static/chunks/472-46003efea57efdd4.js",
+      "static/chunks/main-app-785df61ef3001bfb.js",
+      "static/chunks/925-85d7531f8d34b329.js",
+      "static/chunks/388-dd0cf78ce11f1c2a.js",
+      "static/chunks/app/ayarlar/admin-yonetimi/page-4a0edd74cb14dcb1.js"
     ],
     "/istatistikler/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/istatistikler/page.js"
+      "static/chunks/webpack-d9d87ced11948b28.js",
+      "static/chunks/fd9d1056-d65da8cada05a051.js",
+      "static/chunks/472-46003efea57efdd4.js",
+      "static/chunks/main-app-785df61ef3001bfb.js",
+      "static/chunks/925-85d7531f8d34b329.js",
+      "static/chunks/388-dd0cf78ce11f1c2a.js",
+      "static/chunks/app/istatistikler/page-7637d02bb5561c30.js"
     ],
-    "/rezervasyonlar/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/rezervasyonlar/page.js"
+    "/kullanici/page": [
+      "static/chunks/webpack-d9d87ced11948b28.js",
+      "static/chunks/fd9d1056-d65da8cada05a051.js",
+      "static/chunks/472-46003efea57efdd4.js",
+      "static/chunks/main-app-785df61ef3001bfb.js",
+      "static/chunks/925-85d7531f8d34b329.js",
+      "static/chunks/388-dd0cf78ce11f1c2a.js",
+      "static/chunks/app/kullanici/page-e7658f5a9159b599.js"
+    ],
+    "/odemeler/page": [
+      "static/chunks/webpack-d9d87ced11948b28.js",
+      "static/chunks/fd9d1056-d65da8cada05a051.js",
+      "static/chunks/472-46003efea57efdd4.js",
+      "static/chunks/main-app-785df61ef3001bfb.js",
+      "static/chunks/925-85d7531f8d34b329.js",
+      "static/chunks/388-dd0cf78ce11f1c2a.js",
+      "static/chunks/app/odemeler/page-1ee42459286dc2e7.js"
+    ],
+    "/kampanyalar/page": [
+      "static/chunks/webpack-d9d87ced11948b28.js",
+      "static/chunks/fd9d1056-d65da8cada05a051.js",
+      "static/chunks/472-46003efea57efdd4.js",
+      "static/chunks/main-app-785df61ef3001bfb.js",
+      "static/chunks/925-85d7531f8d34b329.js",
+      "static/chunks/388-dd0cf78ce11f1c2a.js",
+      "static/chunks/app/kampanyalar/page-e877ba577c14ac0e.js"
     ],
     "/kullanici/[id]/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/kullanici/[id]/page.js"
+      "static/chunks/webpack-d9d87ced11948b28.js",
+      "static/chunks/fd9d1056-d65da8cada05a051.js",
+      "static/chunks/472-46003efea57efdd4.js",
+      "static/chunks/main-app-785df61ef3001bfb.js",
+      "static/chunks/925-85d7531f8d34b329.js",
+      "static/chunks/388-dd0cf78ce11f1c2a.js",
+      "static/chunks/app/kullanici/[id]/page-25c8a25bc6b2adf1.js"
     ],
-    "/not-found": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/not-found.js"
+    "/rezervasyonlar/page": [
+      "static/chunks/webpack-d9d87ced11948b28.js",
+      "static/chunks/fd9d1056-d65da8cada05a051.js",
+      "static/chunks/472-46003efea57efdd4.js",
+      "static/chunks/main-app-785df61ef3001bfb.js",
+      "static/chunks/925-85d7531f8d34b329.js",
+      "static/chunks/388-dd0cf78ce11f1c2a.js",
+      "static/chunks/app/rezervasyonlar/page-a56d24a7fdd292ce.js"
+    ],
+    "/rezervasyonlar/[id]/page": [
+      "static/chunks/webpack-d9d87ced11948b28.js",
+      "static/chunks/fd9d1056-d65da8cada05a051.js",
+      "static/chunks/472-46003efea57efdd4.js",
+      "static/chunks/main-app-785df61ef3001bfb.js",
+      "static/chunks/925-85d7531f8d34b329.js",
+      "static/chunks/388-dd0cf78ce11f1c2a.js",
+      "static/chunks/app/rezervasyonlar/[id]/page-9fcc9b78a12887d5.js"
+    ],
+    "/page": [
+      "static/chunks/webpack-d9d87ced11948b28.js",
+      "static/chunks/fd9d1056-d65da8cada05a051.js",
+      "static/chunks/472-46003efea57efdd4.js",
+      "static/chunks/main-app-785df61ef3001bfb.js",
+      "static/chunks/app/page-00a919e12ffd2ee8.js"
+    ],
+    "/sistem/page": [
+      "static/chunks/webpack-d9d87ced11948b28.js",
+      "static/chunks/fd9d1056-d65da8cada05a051.js",
+      "static/chunks/472-46003efea57efdd4.js",
+      "static/chunks/main-app-785df61ef3001bfb.js",
+      "static/chunks/925-85d7531f8d34b329.js",
+      "static/chunks/388-dd0cf78ce11f1c2a.js",
+      "static/chunks/app/sistem/page-6aa16fbe4fa53a9b.js"
+    ],
+    "/raporlar/page": [
+      "static/chunks/webpack-d9d87ced11948b28.js",
+      "static/chunks/fd9d1056-d65da8cada05a051.js",
+      "static/chunks/472-46003efea57efdd4.js",
+      "static/chunks/main-app-785df61ef3001bfb.js",
+      "static/chunks/925-85d7531f8d34b329.js",
+      "static/chunks/388-dd0cf78ce11f1c2a.js",
+      "static/chunks/app/raporlar/page-c6c7eb7e2eb06043.js"
+    ],
+    "/ucuslar/page": [
+      "static/chunks/webpack-d9d87ced11948b28.js",
+      "static/chunks/fd9d1056-d65da8cada05a051.js",
+      "static/chunks/472-46003efea57efdd4.js",
+      "static/chunks/main-app-785df61ef3001bfb.js",
+      "static/chunks/925-85d7531f8d34b329.js",
+      "static/chunks/388-dd0cf78ce11f1c2a.js",
+      "static/chunks/app/ucuslar/page-5bc93dc2859c2e21.js"
+    ],
+    "/ayarlar/page": [
+      "static/chunks/webpack-d9d87ced11948b28.js",
+      "static/chunks/fd9d1056-d65da8cada05a051.js",
+      "static/chunks/472-46003efea57efdd4.js",
+      "static/chunks/main-app-785df61ef3001bfb.js",
+      "static/chunks/925-85d7531f8d34b329.js",
+      "static/chunks/388-dd0cf78ce11f1c2a.js",
+      "static/chunks/app/ayarlar/page-d341bdd4c12e4ae8.js"
+    ],
+    "/seo/page": [
+      "static/chunks/webpack-d9d87ced11948b28.js",
+      "static/chunks/fd9d1056-d65da8cada05a051.js",
+      "static/chunks/472-46003efea57efdd4.js",
+      "static/chunks/main-app-785df61ef3001bfb.js",
+      "static/chunks/app/seo/page-6d566a5ddd9a7c67.js"
     ]
   }
 }

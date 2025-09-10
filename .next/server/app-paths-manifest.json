@@ -1,14 +1,18 @@
 {
-  "/not-found": "app/not-found.js",
-  "/page": "app/page.js",
-  "/sistem/page": "app/sistem/page.js",
+  "/_not-found": "app/_not-found.js",
+  "/ayarlar/admin-yonetimi/page": "app/ayarlar/admin-yonetimi/page.js",
+  "/istatistikler/page": "app/istatistikler/page.js",
   "/favicon.ico/route": "app/favicon.ico/route.js",
   "/kullanici/page": "app/kullanici/page.js",
-  "/kampanyalar/page": "app/kampanyalar/page.js",
-  "/ucuslar/page": "app/ucuslar/page.js",
   "/odemeler/page": "app/odemeler/page.js",
-  "/raporlar/page": "app/raporlar/page.js",
-  "/istatistikler/page": "app/istatistikler/page.js",
+  "/kampanyalar/page": "app/kampanyalar/page.js",
+  "/kullanici/[id]/page": "app/kullanici/[id]/page.js",
   "/rezervasyonlar/page": "app/rezervasyonlar/page.js",
-  "/kullanici/[id]/page": "app/kullanici/[id]/page.js"
+  "/rezervasyonlar/[id]/page": "app/rezervasyonlar/[id]/page.js",
+  "/page": "app/page.js",
+  "/sistem/page": "app/sistem/page.js",
+  "/raporlar/page": "app/raporlar/page.js",
+  "/ucuslar/page": "app/ucuslar/page.js",
+  "/ayarlar/page": "app/ayarlar/page.js",
+  "/seo/page": "app/seo/page.js"
 }
