@@ -1,5 +1,5 @@
 'use client'
-import { Calendar, Clock, User, Layout, Megaphone, CreditCard, FileText, Settings, BookOpen, BarChart3 } from 'lucide-react'
+import { Calendar, Clock, User, Layout, Megaphone, CreditCard, FileText, Settings, BookOpen, BarChart3, Search } from 'lucide-react'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 
@@ -76,6 +76,18 @@ export default function Sidebar({ activeTab, setActiveTab }: SidebarProps) {
           >
             <Megaphone className="h-4 w-4" />
             <span>Kampanyalar</span>
+          </Link>
+          <Link 
+            href="/seo"
+            onClick={() => setActiveTab('seo')}
+            className={`w-full flex items-center space-x-3 px-3 py-2 text-sm font-medium rounded-md ${
+              pathname === '/seo' 
+                ? 'text-gray-900 bg-blue-50' 
+                : 'text-gray-600 hover:text-gray-900 hover:bg-gray-50'
+            }`}
+          >
+            <Search className="h-4 w-4" />
+            <span>SEO</span>
           </Link>
           <Link 
             href="/rezervasyonlar"

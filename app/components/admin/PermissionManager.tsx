@@ -94,16 +94,6 @@ export default function PermissionManager({ onSave }: PermissionManagerProps) {
 
   return (
     <div className="space-y-6">
-      {/* Rol Açıklamaları */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-6">
-        {roles.map(role => (
-          <div key={role.id} className="bg-gray-50 rounded-lg p-4">
-            <h3 className="font-medium text-gray-900 mb-1">{role.name}</h3>
-            <p className="text-sm text-gray-600">{role.description}</p>
-          </div>
-        ))}
-      </div>
-
       {/* Yetki Matrisi */}
       <div className="overflow-x-auto">
         <table className="min-w-full divide-y divide-gray-200">

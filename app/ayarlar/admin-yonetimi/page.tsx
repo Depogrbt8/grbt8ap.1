@@ -100,9 +100,9 @@ export default function AdminYonetimiPage() {
                   Yeni Admin Ekle
                 </button>
                 <button
-                  onClick={() => setActiveAdminTab('yetki')}
+                  onClick={() => setActiveAdminTab('yetkiler')}
                   className={`py-2 px-1 border-b-2 font-medium text-sm ${
-                    activeAdminTab === 'yetki'
+                    activeAdminTab === 'yetkiler'
                       ? 'border-blue-500 text-blue-600'
                       : 'border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300'
                   }`}
@@ -112,48 +112,18 @@ export default function AdminYonetimiPage() {
               </nav>
             </div>
 
-            {/* Tab Content */}
-            <div className="bg-white rounded-lg border border-gray-200 p-6">
-              {activeAdminTab === 'liste' && (
-                <div>
-                  <div className="mb-4">
-                    <h2 className="text-lg font-medium text-gray-900">Admin Listesi</h2>
-                  </div>
-                  <AdminList 
-                    admins={admins}
-                    onEdit={(admin) => console.log('Edit:', admin)}
-                    onDelete={(admin) => console.log('Delete:', admin)}
-                    onToggleStatus={(admin) => console.log('Toggle status:', admin)}
-                  />
-                </div>
-              )}
+            {/* Tab İçerikleri */}
+            {activeAdminTab === 'liste' && (
+              <AdminList admins={admins} />
+            )}
 
-              {activeAdminTab === 'ekle' && (
-                <div>
-                  <h2 className="text-lg font-medium text-gray-900 mb-4">Yeni Admin Ekle</h2>
-                  <AdminForm 
-                    onSubmit={(adminData) => {
-                      console.log('Yeni admin:', adminData)
-                      // Burada API çağrısı yapılacak
-                      alert('Admin başarıyla eklendi!')
-                    }}
-                    onCancel={() => setActiveAdminTab('liste')}
-                  />
-                </div>
-              )}
+            {activeAdminTab === 'ekle' && (
+              <AdminForm />
+            )}
 
-              {activeAdminTab === 'yetki' && (
-                <div>
-                  <h2 className="text-lg font-medium text-gray-900 mb-4">Yetki Yönetimi</h2>
-                  <PermissionManager 
-                    onSave={(roles) => {
-                      console.log('Güncellenmiş roller:', roles)
-                      alert('Yetkiler başarıyla kaydedildi!')
-                    }}
-                  />
-                </div>
-              )}
-            </div>
+            {activeAdminTab === 'yetkiler' && (
+              <PermissionManager />
+            )}
           </div>
         </main>
       </div>
