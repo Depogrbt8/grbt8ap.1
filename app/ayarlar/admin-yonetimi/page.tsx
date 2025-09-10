@@ -75,6 +75,16 @@ export default function AdminYonetimiPage() {
     // TODO: Admin durumunu değiştir
   }
 
+  const handleSubmitAdmin = (adminData: any) => {
+    console.log('Yeni admin ekle:', adminData)
+    // TODO: Yeni admin ekleme işlemi
+  }
+
+  const handleCancelAdmin = () => {
+    console.log('Admin ekleme iptal edildi')
+    setActiveAdminTab('liste')
+  }
+
   return (
     <div className="flex h-screen bg-gray-100 w-full">
       {/* Sidebar */}
@@ -139,7 +149,10 @@ export default function AdminYonetimiPage() {
             )}
 
             {activeAdminTab === 'ekle' && (
-              <AdminForm />
+              <AdminForm 
+                onSubmit={handleSubmitAdmin}
+                onCancel={handleCancelAdmin}
+              />
             )}
 
             {activeAdminTab === 'yetkiler' && (
