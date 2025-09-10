@@ -85,6 +85,11 @@ export default function AdminYonetimiPage() {
     setActiveAdminTab('liste')
   }
 
+  const handleSavePermissions = (roles: any) => {
+    console.log('Yetkiler kaydedildi:', roles)
+    // TODO: Yetkileri kaydetme işlemi
+  }
+
   return (
     <div className="flex h-screen bg-gray-100 w-full">
       {/* Sidebar */}
@@ -156,7 +161,7 @@ export default function AdminYonetimiPage() {
             )}
 
             {activeAdminTab === 'yetkiler' && (
-              <PermissionManager />
+              <PermissionManager onSave={handleSavePermissions} />
             )}
           </div>
         </main>
