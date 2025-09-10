@@ -11,7 +11,7 @@ export default function AdminYonetimiPage() {
   const [activeAdminTab, setActiveAdminTab] = useState('liste')
 
   // Örnek admin verileri
-  const [admins] = useState([
+  const [admins, setAdmins] = useState([
     {
       id: 1,
       name: 'Ahmet Yılmaz',
@@ -58,6 +58,22 @@ export default function AdminYonetimiPage() {
       createdAt: '25.06.2024'
     }
   ])
+
+  // Admin işlem fonksiyonları
+  const handleEditAdmin = (admin: any) => {
+    console.log('Admin düzenle:', admin)
+    // TODO: Admin düzenleme modalını aç
+  }
+
+  const handleDeleteAdmin = (admin: any) => {
+    console.log('Admin sil:', admin)
+    // TODO: Admin silme onayı göster
+  }
+
+  const handleToggleAdminStatus = (admin: any) => {
+    console.log('Admin durum değiştir:', admin)
+    // TODO: Admin durumunu değiştir
+  }
 
   return (
     <div className="flex h-screen bg-gray-100 w-full">
@@ -114,7 +130,12 @@ export default function AdminYonetimiPage() {
 
             {/* Tab İçerikleri */}
             {activeAdminTab === 'liste' && (
-              <AdminList admins={admins} />
+              <AdminList 
+                admins={admins} 
+                onEdit={handleEditAdmin}
+                onDelete={handleDeleteAdmin}
+                onToggleStatus={handleToggleAdminStatus}
+              />
             )}
 
             {activeAdminTab === 'ekle' && (
